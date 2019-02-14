@@ -1679,3 +1679,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
+
+.animatezoom{
+        transform: scale(1);
+        transition: transform 1s;
+}
+
+.animatezoom:hover{
+        transform: scale(1.3);
+}
